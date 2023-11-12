@@ -1,6 +1,4 @@
-<center>
-
-## Ecclesiastes
+# Ecclesiastes
 
 Ecclesiastes is a book in the Old Testament of the Bible, traditionally attributed to King Solomon. It is a philosophical and reflective work that explores the meaning of life, the pursuit of wisdom, and the challenges of human existence.
 
@@ -28,7 +26,8 @@ ecclesiastes [OPTIONS] <IP_ADDRESS> <PORT_RANGE>
 
 ### Options
 
-- -j, --jobs <JOBS> Number of threads to run in parallel. Defaults to 1024.
+- `-j, --jobs <JOBS>` Number of threads to run in parallel. Defaults to 1024.
+- `-t, --timeout <TIMEOUT>` Timeout in milliseconds. Defaults to 1000.
 
 ### Arguments
 
@@ -53,6 +52,3 @@ Voila! The binary size is now 212K.
 ### Author Note
 
 This is my first Rust project and I'm sure there are many ways to improve the code. Feel free to correct me if you have any suggestions. I also plan to invest more time into Rust and hopefully create more projects in the future.
-
-</center>
-```
